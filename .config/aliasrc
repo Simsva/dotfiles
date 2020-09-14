@@ -16,7 +16,7 @@ alias \
 	mkd='mkdir -pv' \
 	yt='youtube-dl --add-metadata -i' \
 	yta='yt -x -f bestaudio/best' \
-  crunch='yt --write-sub --sub-lang enUS --cookies ~/Videos/ytdl/crunchyroll-cookies.txt'
+  crunch='yt --write-sub --sub-lang enUS'
 
 # Abbreviations
 alias \

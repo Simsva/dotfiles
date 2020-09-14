@@ -12,7 +12,7 @@ SAVEHIST=10000
 HISTFILE=$XDG_CACHE_HOME/zsh/history
 
 # Load aliases and shortcuts if existent.
-#[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc"
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc"
 [ -f "$XDG_CONFIG_HOME/aliasrc" ] && source "$XDG_CONFIG_HOME/aliasrc"
 [ -f "$XDG_CONFIG_HOME/zshnameddirrc" ] && source "$XDG_CONFIG_HOME/zshnameddirrc"
 
