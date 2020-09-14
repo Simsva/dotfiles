@@ -5,7 +5,7 @@ if empty(glob('$XDG_CONFIG_HOME/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall
 endif
 
-call plug#begin('~/.config/nvim/autoload/plugged')
+call plug#begin('$XDG_CONFIG_HOME/nvim/autoload/plugged')
   
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
