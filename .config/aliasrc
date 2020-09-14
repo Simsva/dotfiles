@@ -1,0 +1,33 @@
+# Aliases for shell
+
+# Color
+alias \
+	ls='ls --color=auto --group-directories-first' \
+	grep='grep --color=auto' \
+	diff='diff --color=auto' \
+	ccat='highlight --out-format=ansi'
+
+# Default settings
+alias \
+	ll='ls -lah' \
+	cp='cp -iv' \
+	mv='mv -iv' \
+	rm='rm -vI' \
+	mkd='mkdir -pv' \
+	yt='youtube-dl --add-metadata -i' \
+	yta='yt -x -f bestaudio/best' \
+  crunch='yt --write-sub --sub-lang enUS --cookies ~/Videos/ytdl/crunchyroll-cookies.txt'
+
+# Abbreviations
+alias \
+	p='sudo pacman' \
+	e='$EDITOR' \
+	v='$EDITOR' \
+	g='git' \
+	sdn='sudo shutdown -h now'
+
+# Other
+alias \
+	btw='neofetch' \
+	vim='nvim' \
+	fuck='echo $(fc -ln -1) ; sudo $(fc -ln -1)'
